@@ -138,7 +138,7 @@ export default function Landing() {
             <div className="badge animate-fade-in-up animate-delay-1">
               <span>Claude Code Plugin</span>
               <span className="badge-sep">·</span>
-              <span className="badge-version">v1.0.1</span>
+              <span className="badge-version">v1.1.0</span>
             </div>
 
             <h1 className="hero-title animate-fade-in-up animate-delay-2">
