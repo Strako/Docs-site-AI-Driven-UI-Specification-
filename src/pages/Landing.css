@@ -12,7 +12,12 @@
   transform: translateX(-50%);
   width: 800px;
   height: 400px;
-  background: radial-gradient(ellipse, rgba(124,58,237,0.12) 0%, rgba(99,102,241,0.06) 40%, transparent 70%);
+  background: radial-gradient(
+    ellipse,
+    rgba(124, 58, 237, 0.12) 0%,
+    rgba(99, 102, 241, 0.06) 40%,
+    transparent 70%
+  );
   pointer-events: none;
 }
 
@@ -35,7 +40,7 @@
 
 .badge-version {
   color: var(--text-muted);
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 11px;
 }
 
@@ -91,7 +96,7 @@
   font-size: 24px;
   font-weight: 700;
   color: var(--text-primary);
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .stat-label {
@@ -134,7 +139,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.04);
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--step-color, var(--border));
   color: var(--step-color, var(--text-secondary));
   display: flex;
@@ -142,7 +147,7 @@
   justify-content: center;
   font-size: 13px;
   font-weight: 600;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   flex-shrink: 0;
 }
 
@@ -219,6 +224,10 @@
 }
 
 .prompts-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -249,8 +258,8 @@
 }
 
 .prompt-tab.active {
-  background: rgba(124,58,237,0.12);
-  border-color: rgba(124,58,237,0.3);
+  background: rgba(124, 58, 237, 0.12);
+  border-color: rgba(124, 58, 237, 0.3);
   color: #a78bfa;
 }
 
@@ -324,8 +333,9 @@
 .agent-card:hover {
   border-color: var(--agent-color, var(--border));
   background: var(--bg-card-hover);
-  box-shadow: 0 0 0 1px rgba(255,255,255,0.02),
-              inset 0 0 30px rgba(255,255,255,0.01);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.02),
+    inset 0 0 30px rgba(255, 255, 255, 0.01);
 }
 
 .agent-dot {
@@ -346,7 +356,7 @@
   font-size: 13px;
   font-weight: 600;
   color: var(--text-primary);
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .agent-desc {
@@ -362,7 +372,7 @@
   font-size: 11px;
   font-weight: 500;
   color: var(--text-muted);
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   background: var(--bg-tertiary);
   border: 1px solid var(--border);
   padding: 2px 8px;
@@ -377,8 +387,12 @@
 
 .cta-card {
   position: relative;
-  background: linear-gradient(135deg, rgba(124,58,237,0.06), rgba(99,102,241,0.04));
-  border: 1px solid rgba(124,58,237,0.2);
+  background: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.06),
+    rgba(99, 102, 241, 0.04)
+  );
+  border: 1px solid rgba(124, 58, 237, 0.2);
   border-radius: var(--radius-lg);
   padding: 64px 48px;
   text-align: center;
@@ -392,7 +406,11 @@
   transform: translateX(-50%);
   width: 600px;
   height: 300px;
-  background: radial-gradient(ellipse, rgba(124,58,237,0.15), transparent 70%);
+  background: radial-gradient(
+    ellipse,
+    rgba(124, 58, 237, 0.15),
+    transparent 70%
+  );
   pointer-events: none;
 }
 
