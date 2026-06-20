@@ -182,7 +182,6 @@ export default function Landing() {
     <div className="landing">
       {/* 1. Hero — value prop + live demo */}
       <section className="hero">
-        <div className="hero-grid-bg" />
         <div className="container">
           <div className="hero-inner">
             <div className="hero-content">
