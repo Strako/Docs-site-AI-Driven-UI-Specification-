@@ -1,7 +1,7 @@
 /* ─── Hero ────────────────────────────────────────────────────────────────── */
 .hero {
   position: relative;
-  min-height: 100dvh;
+  min-height: calc(100vh - 56px);
   padding: 52px 0 72px;
   overflow: hidden;
   border-bottom: 1px solid var(--border);
